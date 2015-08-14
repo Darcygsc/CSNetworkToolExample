@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C81868801B7E2A2C00AA17AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C818687F1B7E2A2C00AA17AC /* main.m */; };
+		C81868831B7E2A2C00AA17AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C81868821B7E2A2C00AA17AC /* AppDelegate.m */; };
+		C81868861B7E2A2C00AA17AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C81868851B7E2A2C00AA17AC /* ViewController.m */; };
+		C81868891B7E2A2C00AA17AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C81868871B7E2A2C00AA17AC /* Main.storyboard */; };
+		C818688B1B7E2A2C00AA17AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C818688A1B7E2A2C00AA17AC /* Images.xcassets */; };
+		C818688E1B7E2A2C00AA17AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C818688C1B7E2A2C00AA17AC /* LaunchScreen.xib */; };
+		C818689A1B7E2A2C00AA17AC /* CSNetworkToolExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C81868991B7E2A2C00AA17AC /* CSNetworkToolExampleTests.m */; };
+		C81868A71B7E2A4700AA17AC /* CSNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C81868A41B7E2A4700AA17AC /* CSNetworkTool.m */; };
+		C81868A81B7E2A4700AA17AC /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C81868A61B7E2A4700AA17AC /* Reachability.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C81868941B7E2A2C00AA17AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C81868721B7E2A2C00AA17AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C81868791B7E2A2C00AA17AC;
+			remoteInfo = CSNetworkToolExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C818687A1B7E2A2C00AA17AC /* CSNetworkToolExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSNetworkToolExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C818687E1B7E2A2C00AA17AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C818687F1B7E2A2C00AA17AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C81868811B7E2A2C00AA17AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C81868821B7E2A2C00AA17AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C81868841B7E2A2C00AA17AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C81868851B7E2A2C00AA17AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C81868881B7E2A2C00AA17AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C818688A1B7E2A2C00AA17AC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C818688D1B7E2A2C00AA17AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C81868931B7E2A2C00AA17AC /* CSNetworkToolExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSNetworkToolExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C81868981B7E2A2C00AA17AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C81868991B7E2A2C00AA17AC /* CSNetworkToolExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSNetworkToolExampleTests.m; sourceTree = "<group>"; };
+		C81868A31B7E2A4700AA17AC /* CSNetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSNetworkTool.h; sourceTree = "<group>"; };
+		C81868A41B7E2A4700AA17AC /* CSNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSNetworkTool.m; sourceTree = "<group>"; };
+		C81868A51B7E2A4700AA17AC /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		C81868A61B7E2A4700AA17AC /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C81868771B7E2A2C00AA17AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C81868901B7E2A2C00AA17AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C81868711B7E2A2C00AA17AC = {
+			isa = PBXGroup;
+			children = (
+				C818687C1B7E2A2C00AA17AC /* CSNetworkToolExample */,
+				C81868961B7E2A2C00AA17AC /* CSNetworkToolExampleTests */,
+				C818687B1B7E2A2C00AA17AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C818687B1B7E2A2C00AA17AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C818687A1B7E2A2C00AA17AC /* CSNetworkToolExample.app */,
+				C81868931B7E2A2C00AA17AC /* CSNetworkToolExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C818687C1B7E2A2C00AA17AC /* CSNetworkToolExample */ = {
+			isa = PBXGroup;
+			children = (
+				C81868811B7E2A2C00AA17AC /* AppDelegate.h */,
+				C81868821B7E2A2C00AA17AC /* AppDelegate.m */,
+				C81868A31B7E2A4700AA17AC /* CSNetworkTool.h */,
+				C81868A41B7E2A4700AA17AC /* CSNetworkTool.m */,
+				C81868A51B7E2A4700AA17AC /* Reachability.h */,
+				C81868A61B7E2A4700AA17AC /* Reachability.m */,
+				C81868841B7E2A2C00AA17AC /* ViewController.h */,
+				C81868851B7E2A2C00AA17AC /* ViewController.m */,
+				C81868871B7E2A2C00AA17AC /* Main.storyboard */,
+				C818688A1B7E2A2C00AA17AC /* Images.xcassets */,
+				C818688C1B7E2A2C00AA17AC /* LaunchScreen.xib */,
+				C818687D1B7E2A2C00AA17AC /* Supporting Files */,
+			);
+			path = CSNetworkToolExample;
+			sourceTree = "<group>";
+		};
+		C818687D1B7E2A2C00AA17AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C818687E1B7E2A2C00AA17AC /* Info.plist */,
+				C818687F1B7E2A2C00AA17AC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C81868961B7E2A2C00AA17AC /* CSNetworkToolExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				C81868991B7E2A2C00AA17AC /* CSNetworkToolExampleTests.m */,
+				C81868971B7E2A2C00AA17AC /* Supporting Files */,
+			);
+			path = CSNetworkToolExampleTests;
+			sourceTree = "<group>";
+		};
+		C81868971B7E2A2C00AA17AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C81868981B7E2A2C00AA17AC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C81868791B7E2A2C00AA17AC /* CSNetworkToolExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C818689D1B7E2A2C00AA17AC /* Build configuration list for PBXNativeTarget "CSNetworkToolExample" */;
+			buildPhases = (
+				C81868761B7E2A2C00AA17AC /* Sources */,
+				C81868771B7E2A2C00AA17AC /* Frameworks */,
+				C81868781B7E2A2C00AA17AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CSNetworkToolExample;
+			productName = CSNetworkToolExample;
+			productReference = C818687A1B7E2A2C00AA17AC /* CSNetworkToolExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C81868921B7E2A2C00AA17AC /* CSNetworkToolExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C81868A01B7E2A2C00AA17AC /* Build configuration list for PBXNativeTarget "CSNetworkToolExampleTests" */;
+			buildPhases = (
+				C818688F1B7E2A2C00AA17AC /* Sources */,
+				C81868901B7E2A2C00AA17AC /* Frameworks */,
+				C81868911B7E2A2C00AA17AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C81868951B7E2A2C00AA17AC /* PBXTargetDependency */,
+			);
+			name = CSNetworkToolExampleTests;
+			productName = CSNetworkToolExampleTests;
+			productReference = C81868931B7E2A2C00AA17AC /* CSNetworkToolExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C81868721B7E2A2C00AA17AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = ace;
+				TargetAttributes = {
+					C81868791B7E2A2C00AA17AC = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					C81868921B7E2A2C00AA17AC = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = C81868791B7E2A2C00AA17AC;
+					};
+				};
+			};
+			buildConfigurationList = C81868751B7E2A2C00AA17AC /* Build configuration list for PBXProject "CSNetworkToolExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C81868711B7E2A2C00AA17AC;
+			productRefGroup = C818687B1B7E2A2C00AA17AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C81868791B7E2A2C00AA17AC /* CSNetworkToolExample */,
+				C81868921B7E2A2C00AA17AC /* CSNetworkToolExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C81868781B7E2A2C00AA17AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C81868891B7E2A2C00AA17AC /* Main.storyboard in Resources */,
+				C818688E1B7E2A2C00AA17AC /* LaunchScreen.xib in Resources */,
+				C818688B1B7E2A2C00AA17AC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C81868911B7E2A2C00AA17AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C81868761B7E2A2C00AA17AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C81868A71B7E2A4700AA17AC /* CSNetworkTool.m in Sources */,
+				C81868861B7E2A2C00AA17AC /* ViewController.m in Sources */,
+				C81868831B7E2A2C00AA17AC /* AppDelegate.m in Sources */,
+				C81868801B7E2A2C00AA17AC /* main.m in Sources */,
+				C81868A81B7E2A4700AA17AC /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C818688F1B7E2A2C00AA17AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C818689A1B7E2A2C00AA17AC /* CSNetworkToolExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C81868951B7E2A2C00AA17AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C81868791B7E2A2C00AA17AC /* CSNetworkToolExample */;
+			targetProxy = C81868941B7E2A2C00AA17AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C81868871B7E2A2C00AA17AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C81868881B7E2A2C00AA17AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C818688C1B7E2A2C00AA17AC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C818688D1B7E2A2C00AA17AC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C818689B1B7E2A2C00AA17AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C818689C1B7E2A2C00AA17AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C818689E1B7E2A2C00AA17AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CSNetworkToolExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C818689F1B7E2A2C00AA17AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CSNetworkToolExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C81868A11B7E2A2C00AA17AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CSNetworkToolExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CSNetworkToolExample.app/CSNetworkToolExample";
+			};
+			name = Debug;
+		};
+		C81868A21B7E2A2C00AA17AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CSNetworkToolExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CSNetworkToolExample.app/CSNetworkToolExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C81868751B7E2A2C00AA17AC /* Build configuration list for PBXProject "CSNetworkToolExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C818689B1B7E2A2C00AA17AC /* Debug */,
+				C818689C1B7E2A2C00AA17AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C818689D1B7E2A2C00AA17AC /* Build configuration list for PBXNativeTarget "CSNetworkToolExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C818689E1B7E2A2C00AA17AC /* Debug */,
+				C818689F1B7E2A2C00AA17AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C81868A01B7E2A2C00AA17AC /* Build configuration list for PBXNativeTarget "CSNetworkToolExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C81868A11B7E2A2C00AA17AC /* Debug */,
+				C81868A21B7E2A2C00AA17AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C81868721B7E2A2C00AA17AC /* Project object */;
+}
